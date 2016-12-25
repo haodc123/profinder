@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_global">#fff</color>
+    
+    <color name="label_global_red">#a33311</color>
+    <color name="label_global_blue">#394679</color>
+    <color name="label_global_green">#1e6258</color>
+    <color name="label_global_blur">#ccc</color>
+    <color name="label_global_dark">#333</color>
+    <color name="label_global_gray">#aaa</color>
+    <color name="label_global_gray_deep">#666</color>
+    <color name="label_global_white">#efefef</color>
+    <color name="label_global_yellow">#ffba35</color>
+    
+    <color name="bg_row_gray">#e5e5e5</color>
+    <color name="bg_row_yellow">#edf8cc</color>
+    <color name="bg_row_blue">#e6ebff</color>
+    
+    <color name="transparent_dialog">#88000000</color>
+    <color name="transparent_light">#cc000000</color>
+    <color name="global_transparent">#00000000</color>
+    <color name="label_global_green_light">#92b2ad</color>
+    <color name="label_global_green_bright">#b8dfc3</color>
+    <color name="label_global_gray_bright">#d1d1d1</color>
+    <color name="label_global_white_bright">#ffffff</color>
+    <color name="label_global_orange_bright">#faceaf</color>
+    
+    <color name="bg_actionbar">#1e6258</color>
+    
+    <color name="bt_schema_1_bg">#a33311</color>
+    <color name="bt_schema_1_label">#ddd</color>
+    <color name="bt_schema_2_bg">#1e6258</color>
+    <color name="bt_schema_2_label">#ddd</color>
+    <color name="bt_blur_bg">#bbb</color>
+    <color name="bt_blur_label">#777</color>
+    
+    <color name="transparent_dialog_confirm">#00000000</color>
+</resources>

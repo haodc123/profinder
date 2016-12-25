@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/label_global_white"
+    >
+    <!-- tab header -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="2"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:background="@color/label_global_blur"
+        android:orientation="horizontal" >
+        <LinearLayout 
+            android:id="@+id/ll_tab_learn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/global_transparent" >
+            <ImageView 
+                android:id="@+id/img_tab_learn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_learn"
+                android:scaleType="fitXY" />
+            <TextView 
+                android:id="@+id/tv_tab_learn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="@string/label_meet_learn"
+                android:textColor="@color/label_global_blue"     
+                android:textSize="@dimen/text_global_small" />
+        </LinearLayout>
+        <View 
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/label_global_gray" />
+        <LinearLayout 
+            android:id="@+id/ll_tab_teach"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/global_transparent" >
+            <ImageView 
+                android:id="@+id/img_tab_teach"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_teach"
+                android:scaleType="fitXY" />
+            <TextView 
+                android:id="@+id/tv_tab_teach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="@string/label_meet_teach"
+                android:textColor="@color/label_global_green"     
+                android:textSize="@dimen/text_global_small" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <TextView
+            android:id="@+id/tv_lm_alert"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:text="@string/alert_no_meet_learn"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="55dp"
+        android:orientation="vertical" >
+            <android.support.v4.widget.SwipeRefreshLayout 
+			    android:id="@+id/swipe_refresh_layout"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content">
+                <ListView
+			        android:id="@+id/lv_list_main"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:transcriptMode="alwaysScroll"
+			        android:stackFromBottom="false">
+			    </ListView>
+            </android.support.v4.widget.SwipeRefreshLayout>
+        </LinearLayout>
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="15dp"
+        android:gravity="right"
+        android:orientation="horizontal" >
+        <Button 
+            android:id="@+id/bt_lm_add"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/ic_add" />
+    </LinearLayout>
+</RelativeLayout>

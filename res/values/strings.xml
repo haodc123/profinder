@@ -1,0 +1,172 @@
+<resources>
+
+    <string name="app_name">ProFinder</string>
+    <string name="facebook_app_id">190049611358660</string>
+    
+    <!-- Dialog -->
+    <string name="bt_cancel">Đóng</string>
+    <string name="bt_go">Mở ứng dụng</string>
+    <string name="bt_open">MỞ</string>
+    
+    <!-- Menu -->
+    <string name="mn_global_settings">Cài đặt</string>
+    <string name="mn_global_history">Lịch sử Tìm kiếm</string>
+    <string name="mn_global_listchat">Danh sách chat</string>
+    <string name="mn_global_logout">Đăng xuất</string>
+    <string name="mn_global_exit">Thoát</string>
+    
+    <!-- Basic -->
+    <string name="bt_learn_go">Đi tiếp</string>
+    <string name="bt_yes">Có</string>
+    <string name="bt_no">Không</string>
+    <string name="alert_del_chsg_title">Xóa tìm kiếm này?</string>
+    <string name="alert_logout_title">Bạn chắc chắn muốn đăng xuất?</string>
+    <string name="alert_exit_title">Bạn chắc chắn muốn thoát?</string>
+    
+    <!-- Alert / Error / Announcement-->
+    <string name="alert_no_internet">Không có kết nối Internet, vui lòng bật kết nối mạng để sử dụng các chức năng</string>
+    <string name="error_server_connect">Lỗi khi kết nối tới server. Vui lòng kiểm tra kết nối hoặc tải lại</string>
+    <string name="error_json">Phản hồi từ server không hợp lệ</string>
+    <string name="alert_input_email">Bạn cần nhập email, SĐT hợp lệ</string>
+    <string name="alert_not_fill_start">Bạn phải nhập các mục có dấu *</string>
+    <string name="ann_have_partner">Có hoạt động của người phù hợp với bạn.</string>
+    
+    <!-- Splash -->
+    <string name="app_intro">ProFinder - mạng Tìm Gia sư - Người trợ giúp là cầu nối giữa người có vấn đề cần giải quyết và người giúp đỡ họ.\nBạn có thể tăng thu nhập khi chia sẻ kiến thức của mình.</string>
+    <string name="app_cpright">ProFinder &#169; 2016</string>
+    
+    <!-- Login -->
+    <string name="title_login">Đăng nhập</string>
+    <string name="text_or">HOẶC</string>
+    <string name="hint_tel_or_email">Nhập số ĐT hoặc Email</string>
+    <string name="hint_email">Nhập email</string>
+    <string name="hint_tel">Nhập số ĐT</string>
+    <string name="hint_pass">Nhập mật khẩu</string>
+    <string name="bt_login">Đăng nhập</string>
+    <string name="text_forgotpass">Quên mật khẩu</string>
+    <string name="text_reg">Tôi chưa có tài khoản</string>
+    <string name="text_guide">Hướng dẫn sử dụng</string>
+    
+    <!-- Reg -->
+    <string name="title_reg">Đăng ký</string>
+    <string name="hint_name">Nhập tên</string>
+    <string name="hint_address">Địa chỉ</string>
+    <string name="bt_enter">Đăng ký</string>
+    
+    <!-- FGP -->
+    <string name="title_fgp">Quên mật khẩu</string>
+    <string name="text_fgp_intro">Nhập Email để reset mật khẩu</string>
+    <string name="bt_fgp_enter">Gửi</string>
+    <string name="text_fgp_gologin">Đi đến mục đăng nhập</string>
+    
+    <!-- Init Choosing -->
+    <string name="bt_chsg_gs">Tìm/Làm Gia sư</string>
+    <string name="bt_chsg_ntg">Tìm/Làm Người trợ giúp</string>
+    <string name="bt_chsg_prev">Mở lại lần trước</string>
+    <string name="cb_chsg_learn1">Tôi có vấn đề và muốn được trợ giúp</string>
+    <string name="cb_chsg_learn0">Tôi muốn dạy hoặc trợ giúp người khác</string>
+    <string name="toast_not_fill">Bạn cần chọn 1 mục</string>
+    <string name="toast_not_prev">Không có bản lưu nào trước đây</string>
+    
+    <!-- Choosing -->
+    <string name="title_field">Chọn lĩnh vực bạn muốn</string>
+    <string name="title_learn">Vui lòng chọn mục phù hợp với bạn</string>
+    <string name="title_chsg">Bổ sung thông tin</string>
+    <string name="title_hello">Chào</string>
+    <string name="label_chsg_cat">Bạn muốn chọn loại hình nào</string>
+    <string name="label_chsg_0">Gia sư (học hỏi có hệ thống)</string>
+    <string name="label_chsg_1">Người trợ giúp (trợ giúp tại chỗ)</string>
+    <string name="label_chsg_con">Nội dung yêu cầu</string>
+    <string name="label_chsg_add_tag">Thêm tag</string>
+    <string name="label_chsg_hint_tag">Nhập tag để tìm chính xác hơn</string>
+    <string name="label_chsg_tag">Tag</string>
+    <string name="label_chsg_ath">Đính kèm</string>
+    <string name="label_chsg_ath_doc">Tài liệu</string>
+    <string name="label_chsg_ath_capture">Chụp ảnh</string>
+    <string name="label_chsg_ath_info">Bạn được up tối đa 2 file</string>
+    <string name="alert_chsg_ath_info">Bạn đã chọn đủ số file cho phép</string>
+    <string name="label_chsg_more">Thông tin bổ sung (không bắt buộc)</string>
+    <string name="label_chsg_area">Khu vực *</string>
+    <string name="label_chsg_tel">Số ĐT *</string>
+    <string name="label_chsg_time">Thời gian</string>
+    <string name="label_chsg_fee">Học phí</string>
+    <string name="label_chsg_sex">Cần</string>
+    <string name="spinner_chsg_malefemale">Cả Nam, Nữ</string>
+    <string name="spinner_chsg_male">Nam</string>
+    <string name="spinner_chsg_female">Nữ</string>
+    <string name="bt_chsg_add">Thêm mục khác</string>
+    <string name="bt_chsg_go">Tìm kiếm</string>
+    <string name="bt_chsg_cancel">Hủy</string>
+    <string name="bt_chsg_update">Cập nhật</string>
+    
+    <!-- List_Chsg -->
+    <string name="title_list_chsg">Danh sách tìm kiếm</string>
+    
+    <!-- List_Connect -->
+    <string name="title_list_connect">Các kết nối từ mọi người</string>
+    <string name="alert_no_connect">Hiện chưa có kết nối nào giữa các thành viên trên hệ thống.</string>
+    
+    <!-- List Meet -->
+    <string name="title_list_meet_all">Tìm kiếm cho yêu cầu của bạn</string>
+    <string name="title_list_meet">Tìm kiếm cho </string>
+    <string name="label_meet_learn">Người giúp đỡ</string>
+    <string name="label_meet_teach">Cần bạn giúp</string>
+    <string name="alert_no_meet_learn">Tạm thời chưa tìm thấy NGƯỜI TRỢ GIÚP nào cho bạn</string>
+    <string name="alert_no_meet_teach">Tạm thời chưa tìm thấy người nào CẦN BẠN GIÚP</string>
+    
+    <!-- Setting -->
+    <string name="title_settings">Cài đặt</string>
+    <string name="label_st_userinfo">Thông tin cá nhân</string>
+    <string name="label_st_name">Tên</string>
+    <string name="label_st_email">Email</string>
+    <string name="label_st_tel">SĐT</string>
+    <string name="label_st_address">Địa chỉ</string>
+    <string name="label_st_avatar">Avatar</string>
+    <string name="label_st_select_img">Chọn ảnh</string>
+    <string name="bt_st_update">Cập nhật</string>
+    <string name="tv_st_bm">Danh sách đánh dấu</string>
+    <string name="tv_st_chsg">Lịch sử Tìm kiếm</string>
+    
+    <!-- Person -->
+    <string name="title_person">Thông tin người liên hệ</string>
+    <string name="bt_ps_call">Gọi</string>
+    <string name="bt_ps_chat">Chat</string>
+    <string name="label_ps_ath_info">Không có file đính kèm</string>
+    <string name="label_ps_area">Khu vực</string>
+    <string name="label_ps_note">Ghi chú</string>
+    <string name="label_ps_request_notconnect">Bạn và người này chưa hơp tác.\nBấm vào đây để gửi 1 yêu cầu</string>
+    <string name="label_ps_request_requesting">Đang gửi yêu cầu đến người này&#8230;</string>
+    <string name="label_ps_request_do_cancelrequest">Hủy yêu cầu</string>
+    <string name="label_ps_request_requesting2">Người này đang gửi yêu cầu đến bạn</string>
+    <string name="label_ps_request_do_confirm">Chấp nhận</string>
+    <string name="label_ps_request_do_ignored">Từ chối</string>
+    <string name="label_ps_request_confirmed">Bạn và người này đang hợp tác. Hủy hợp tác ?</string>
+    <string name="label_ps_request_delete_dialog">Bạn có chắc muốn hủy hợp tác ?</string>
+    <string name="label_ps_request_ignored">Yêu cầu đã bị từ chối</string>
+    <string name="label_ps_do_rate">Xếp hạng:</string>
+    <string name="label_ps_do_rate_update">Cập nhật</string>
+    <string name="label_ps_con">Nội dung yêu cầu</string>
+    
+    <!-- ListChat -->
+    <string name="title_listchat">Danh sách cuộc trò chuyện</string>
+    <string name="label_server">Server</string>
+    
+    <!-- MyChat -->
+    <string name="title_mychat">Trò chuyện</string>
+    <string name="alert_fill_content">Vui lòng nhập nội dung</string>
+    <string name="hint_type_msg">Nhập tin nhắn</string>
+    <string name="label_bt_send">Gửi</string>
+    <string-array name="menu_mychat">
+        <item name="mn_mychat_copy">Copy</item>
+        <item name="mn_mychat_del">Xóa</item>
+    </string-array>
+    <string name="mn_mychat_copy">Copy</string>
+    <string name="mn_mychat_del">Xóa</string>
+    
+    <!-- List Bookmark -->
+    <string name="title_list_bm">Danh sách người bạn đánh dấu</string>
+    
+    <!-- Frg_Cat -->
+    <string name="tv_cat_ntg">Giải quyết vấn đề tại chỗ; tìm người hỗ trợ, đồng hành,...</string>
+    <string name="tv_cat_gs">Giải quyết nền tảng của các vấn đề, mức độ và thời gian nhiều hơn</string>
+</resources>

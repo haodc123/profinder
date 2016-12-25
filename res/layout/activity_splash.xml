@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_splash_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/label_global_green" >
+    <LinearLayout
+        android:id="@+id/ll_splash_main"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+	    <LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_gravity="center_horizontal"
+		    android:gravity="center_horizontal" >
+		    <ImageView 
+		        android:id="@+id/img_splash_main"
+		        android:layout_width="80dp"
+		        android:layout_height="80dp"
+		        android:layout_marginLeft="50dp"
+		        android:src="@drawable/ic_launcher"
+		        android:scaleType="fitCenter"/>
+		    <TextView 
+		        android:id="@+id/tv_splash_main"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="30dp"
+	            android:layout_gravity="center_vertical"
+	            android:text="@string/app_name"
+	            android:textColor="@color/label_global_white"
+	            android:textSize="@dimen/text_splash_main"/>
+	    </LinearLayout>
+	    
+	    <TextView 
+	        android:id="@+id/tv_splash_intro"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="40dp"
+	        android:text="@string/app_intro"
+	        android:textColor="@color/label_global_gray"
+	        android:gravity="right"
+	        android:textSize="@dimen/text_global_small"/>
+	</LinearLayout> <!-- end ll_splash_main -->
+	<TextView 
+	    android:id="@+id/tv_splash_cpright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/app_cpright"
+        android:textColor="@color/label_global_white"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/text_global_small"/>
+</RelativeLayout>

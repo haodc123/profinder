@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:weightSum="10" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+        <EditText 
+            android:id="@+id/edt_reg_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:padding="5dp"
+            android:hint="@string/hint_name"
+            android:textColor="@color/label_global_dark"
+            android:textSize="@dimen/text_global_normal"/>
+        <EditText 
+            android:id="@+id/edt_reg_tel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:padding="5dp"
+            android:hint="@string/hint_tel_or_email"
+            android:textColor="@color/label_global_dark"
+            android:textSize="@dimen/text_global_normal"/>
+        <EditText 
+            android:id="@+id/edt_reg_pass"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:padding="5dp"
+            android:hint="@string/hint_pass"
+            android:inputType="textPassword"
+            android:textColor="@color/label_global_dark"
+            android:textSize="@dimen/text_global_normal"/>
+        <EditText 
+            android:id="@+id/edt_reg_address"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:padding="5dp"
+            android:hint="@string/hint_address"
+            android:textColor="@color/label_global_dark"
+            android:textSize="@dimen/text_global_normal"/>
+        <Spinner
+            android:id="@+id/sp_reg_sex"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_marginBottom="15dp"
+            android:spinnerMode="dropdown" />
+        <Button 
+            android:id="@+id/bt_reg_enter"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/bt_enter"
+            android:background="@drawable/bt_schema_green"
+            android:textColor="@color/label_global_white"
+            android:textSize="@dimen/text_global_normal"/>
+    </LinearLayout>
+    
+</LinearLayout>

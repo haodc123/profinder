@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="paxcreation.com.basictesting.MainActivity" >
+
+    <item
+        android:id="@+id/mn_setting"
+        android:orderInCategory="100"
+        android:title="@string/mn_global_settings"/>
+    <item
+        android:id="@+id/mn_history"
+        android:orderInCategory="101"
+        android:title="@string/mn_global_history"/>
+    <item
+        android:id="@+id/mn_listchat"
+        android:orderInCategory="102"
+        android:title="@string/mn_global_listchat"/>
+    <item
+        android:id="@+id/mn_logout"
+        android:orderInCategory="103"
+        android:title="@string/mn_global_logout"/>
+    <item
+        android:id="@+id/mn_exit"
+        android:orderInCategory="104"
+        android:title="@string/mn_global_exit"/>
+    
+
+</menu>

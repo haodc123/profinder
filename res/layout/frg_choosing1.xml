@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/label_global_white"
+    >
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="55dp">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_chsg_intro"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text=""
+        android:gravity="right"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/label_global_green"
+        android:textSize="@dimen/text_global_normal"
+        android:background="@color/label_global_blur"
+        android:padding="8dp" />
+    
+    <!-- Cat -->
+    <TextView
+        android:id="@+id/tv_chsg_cat_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/label_chsg_cat"
+        android:layout_gravity="left" />
+    <Spinner
+        android:id="@+id/sp_chsg_cat"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/edt_bg_schema_gray"
+        android:spinnerMode="dropdown" />
+
+    <!-- Line -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal" >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/label_chsg_more"
+            android:textColor="@color/label_global_gray"
+            android:textSize="@dimen/text_global_normal"/>
+    </LinearLayout>
+    
+    <!-- Tag -->
+    <TextView
+        android:id="@+id/tv_chsg_tag_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/label_chsg_tag"
+        android:layout_gravity="left" />        
+    <conghaodng.demo.profinder.utils.MyInstantAutoComplete
+        android:id="@+id/atv_chsg_tag"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/edt_bg_schema_gray" />
+    
+    <!-- Content -->
+    <TextView
+        android:id="@+id/tv_chsg_con_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" >
+        <EditText 
+            android:id="@+id/edt_con"
+	        android:layout_width="match_parent"
+	        android:layout_height="100dp"
+	        android:gravity="top"
+	        android:padding="5dp"
+	        android:background="@drawable/edt_bg_schema_gray" />
+        <!-- <Button 
+            android:id="@+id/bt_con_tag"
+	        android:layout_width="100dp"
+	        android:layout_height="35dp"
+	        android:layout_alignRight="@id/edt_con"
+	        android:layout_alignBottom="@id/edt_con"
+	        android:layout_marginTop="-110dp"
+	        android:text="@string/label_chsg_add_tag"
+	        android:textSize="@dimen/text_global_small"
+	        android:textColor="@color/label_global_red" /> -->
+    </RelativeLayout>
+    
+    <!-- Attach -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <TextView
+            android:id="@+id/tv_chsg_ath_label"
+            android:layout_width="0dp"
+            android:layout_weight="2.2"
+            android:layout_height="wrap_content"
+            android:text="@string/label_chsg_ath"
+            android:layout_margin="5dp" />
+        <TextView
+            android:id="@+id/tv_chsg_ath_doc"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:text="@string/label_chsg_ath_doc"
+            android:textColor="@color/label_global_green"
+            android:layout_margin="5dp" />
+        <TextView
+            android:id="@+id/tv_chsg_ath_capture"
+            android:layout_width="0dp"
+            android:layout_weight="4.5"
+            android:layout_height="wrap_content"
+            android:text="@string/label_chsg_ath_capture"
+            android:textColor="@color/label_global_green"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" >
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+	            android:id="@+id/tv_chsg_ath_info_1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=""
+	            android:textColor="@color/label_global_blue"
+	            android:layout_marginLeft="5dp" />
+            <ImageView 
+                android:id="@+id/img_chsg_ath_del_1"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:src="@drawable/ic_del"
+                android:layout_marginLeft="8dp"
+                android:layout_alignTop="@id/tv_chsg_ath_info_1"
+                android:layout_alignBottom="@id/tv_chsg_ath_info_1"
+                android:layout_toRightOf="@id/tv_chsg_ath_info_1" />
+            <TextView
+                android:id="@+id/tv_chsg_ath_info_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_chsg_ath_info_1"
+                android:layout_alignLeft="@id/tv_chsg_ath_info_1"
+                android:text=""
+                android:textColor="@color/label_global_blue" />
+            <ImageView 
+                android:id="@+id/img_chsg_ath_del_2"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:src="@drawable/ic_del"
+                android:layout_marginLeft="8dp"
+                android:layout_alignTop="@id/tv_chsg_ath_info_2"
+                android:layout_alignBottom="@id/tv_chsg_ath_info_2"
+                android:layout_toRightOf="@id/tv_chsg_ath_info_2" />
+        </RelativeLayout>
+        <TextView 
+            android:id="@+id/tv_chsg_ath_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/label_global_gray"
+            android:layout_margin="5dp" />
+    </FrameLayout>
+</LinearLayout>
+</ScrollView>
+<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <Button 
+            android:id="@+id/bt_chsg_add"
+            android:visibility="invisible"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:text="@string/bt_chsg_add"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bt_schema_green"
+            android:textColor="@color/label_global_white" />
+        <Button 
+            android:id="@+id/bt_chsg_go"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:text="@string/bt_chsg_go"
+            android:background="@drawable/bt_schema_green"
+            android:textColor="@color/label_global_white" />
+    </LinearLayout>
+</RelativeLayout>

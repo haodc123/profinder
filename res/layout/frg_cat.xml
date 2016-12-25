@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/label_global_white"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/bt_cat_gs"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:text="@string/bt_chsg_gs"
+            android:background="@drawable/bt_schema_green"
+            android:textColor="@color/label_global_white"
+            android:textSize="@dimen/text_global_normal" />
+
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="40dp"
+            android:textSize="@dimen/text_global_small"
+            android:textColor="@color/label_global_gray"
+            android:text="@string/tv_cat_gs"/>
+        <!-- <View 
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/label_global_green_light"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"/> -->
+        
+        <Button
+            android:id="@+id/bt_cat_ntg"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:text="@string/bt_chsg_ntg"
+            android:background="@drawable/bt_schema_green"
+            android:textColor="@color/label_global_white"
+            android:textSize="@dimen/text_global_normal" />
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="40dp"
+            android:textSize="@dimen/text_global_small"
+            android:textColor="@color/label_global_gray"
+            android:text="@string/tv_cat_ntg"/>
+        
+    </LinearLayout>
+</RelativeLayout>

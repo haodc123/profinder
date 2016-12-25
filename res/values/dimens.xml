@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="text_global_big">18sp</dimen>
+    <dimen name="text_global_normal">15sp</dimen>
+    <dimen name="text_global_small">13sp</dimen>
+    
+    <dimen name="text_splash_main">20sp</dimen>
+</resources>

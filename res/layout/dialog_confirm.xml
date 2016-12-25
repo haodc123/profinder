@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_vertical"
+    android:background="@color/global_transparent" >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/dialog_bg" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_alignBaseline="@+id/imageView1"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/label_global_green"
+        android:textSize="17sp"
+        android:text="@string/app_name" />
+    
+    <TextView
+        android:id="@+id/dg_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/alert_del_chsg_title"
+        android:textColor="@color/label_global_dark"
+        android:textSize="18sp" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dg_content"
+        android:gravity="center"
+        android:layout_marginTop="25dp" >
+        <Button
+	        android:id="@+id/dg_no"
+	        android:layout_width="100dp"
+	        android:layout_height="40dp"
+	        android:layout_marginRight="15dp"
+	        android:textColor="@color/label_global_white"
+	        android:background="@drawable/bt_schema_green"
+        	android:textSize="18sp"
+	        android:text="@string/bt_no" />
+        <Button
+	        android:id="@+id/dg_yes"
+	        android:layout_width="100dp"
+	        android:layout_height="40dp"
+	        android:textColor="@color/label_global_white"
+            android:background="@drawable/bt_schema_green"
+        	android:textSize="18sp"
+	        android:text="@string/bt_yes" />
+    </LinearLayout>
+
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center" >
+        <conghaodng.demo.profinder.utils.MyZoomableImageView
+	        android:id="@+id/img_dlf"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" />
+        <TextView
+	        android:id="@+id/tv_dlf"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/label_global_dark" />
+        
+    </FrameLayout>
+    <Button
+            android:id="@+id/bt_dlf_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="top|right"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_del3" />
+</RelativeLayout>

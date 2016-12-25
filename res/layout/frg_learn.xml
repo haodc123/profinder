@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/label_global_white"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginRight="8dp"
+	        android:layout_marginBottom="45dp"
+	        android:orientation="vertical" >
+	        <CheckBox 
+	            android:id="@+id/cb_learn_1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="25dp"
+	            android:text="@string/cb_chsg_learn1"
+	            android:textSize="@dimen/text_global_normal"
+	            android:checked="true" />
+	        <CheckBox 
+	            android:id="@+id/cb_learn_0"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/cb_chsg_learn0"
+	            android:textSize="@dimen/text_global_normal"
+	            android:checked="false" />
+	    </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_learn_go"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/bt_learn_go"
+            android:background="@drawable/bt_schema_green"
+            android:textColor="@color/label_global_white"
+            android:textSize="@dimen/text_global_normal" />
+
+    </LinearLayout>
+</RelativeLayout>

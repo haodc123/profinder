@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/label_global_white"
+    >
+
+    <TextView
+            android:id="@+id/tv_lm_alert"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:text="@string/alert_no_connect"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="55dp"
+            android:orientation="vertical" >
+            <android.support.v4.widget.SwipeRefreshLayout 
+                android:id="@+id/swipe_refresh_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ListView
+                    android:id="@+id/lv_list_main"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:transcriptMode="alwaysScroll"
+                    android:stackFromBottom="false">
+                </ListView>
+            </android.support.v4.widget.SwipeRefreshLayout>
+        </LinearLayout>
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="15dp"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal" >
+        <Button 
+            android:id="@+id/bt_lc_search"
+            android:layout_width="69dp"
+            android:layout_height="69dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_search" />
+        <Button 
+            android:id="@+id/bt_lc_add"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/ic_add" />
+    </LinearLayout>
+</RelativeLayout>

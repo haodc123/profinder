@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="paxcreation.com.basictesting.MainActivity" >
+    
+    <!-- Context menu on mychat screen -->
+    <item
+        android:id="@+id/mn_mychat_copy"
+        android:orderInCategory="200"
+        android:title="@string/mn_mychat_copy"/>
+    <item
+        android:id="@+id/mn_mychat_del"
+        android:orderInCategory="201"
+        android:title="@string/mn_mychat_del"/>
+
+</menu>
